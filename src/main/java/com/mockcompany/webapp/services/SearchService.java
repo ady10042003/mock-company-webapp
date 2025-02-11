@@ -60,8 +60,7 @@ public class SearchService {
             }
         }
 
-        //return itemList;
-        return Collections.emptyList();
+        return itemList;
     }
 
     public int countMatchingItems(String query) {
